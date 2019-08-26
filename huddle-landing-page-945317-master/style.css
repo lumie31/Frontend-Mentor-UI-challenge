@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Open Sans", sans-serif; */
+}
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+header {
+  background: url("images/bg-hero-desktop.svg");
+}
+
+button {
+  border-radius: 20px;
+  padding: 7px 30px;
+  background: #fff;
+  cursor: pointer;
+  border: none;
+  box-shadow: 2px 2px 5px grey;
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 50px;
+}
+
+.hero {
+  display: flex;
+  padding: 0 50px;
+}
+
+.hero-text {
+  width: 40%;
+}
+
+.hero-text h2 {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 30px;
+}
+
+.hero-text p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  text-justify: auto;
+}
+
+.hero-text button {
+  margin-top: 15px;
+  padding: 10px 40px !important;
+  border-radius: 20px;
+  background: hsl(322, 100%, 66%);
+  color: #fff;
+}
+
+.heading {
+  margin-top: 10vh;
+}
+
+.hero-img {
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+.hero-img img {
+  float: right;
+}
