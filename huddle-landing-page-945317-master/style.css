@@ -4,12 +4,16 @@ body {
   box-sizing: border-box;
   /* font-family: "Open Sans", sans-serif; */
 }
-/* 
-font-family: 'Poppins', sans-serif;
-font-family: 'Open Sans', sans-serif; */
 
+h2 {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Open Sans", sans-serif;
+}
 header {
   background: url("images/bg-hero-desktop.svg");
+  margin-bottom: 10vh;
 }
 
 button {
@@ -68,5 +72,32 @@ button {
 }
 
 .hero-img img {
+  float: right;
+}
+
+.card {
+  display: flex;
+  /* border: 2px solid grey; */
+  border-radius: 10px;
+  margin-top: 3vh;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.text {
+  width: 40%;
+}
+.text {
+  padding: 5em;
+  margin-top: 10px;
+}
+.sect {
+  padding: 0 50px;
+}
+.pic {
+  width: 60%;
+}
+.pic img {
+  padding: 30px;
+  /* margin-left: 5em; */
   float: right;
 }
