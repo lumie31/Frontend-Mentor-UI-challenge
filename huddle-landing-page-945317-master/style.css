@@ -8,7 +8,7 @@ body {
 h2 {
   font-family: "Poppins", sans-serif;
 }
-p {
+p, .f-ul {
   font-family: "Open Sans", sans-serif;
 }
 header {
@@ -124,14 +124,15 @@ footer {
   background: hsl(192, 100%, 9%);
   color: #fff;
   display: flex;
-  padding-top: 20vh
+  padding-top: 10vh
 }
 
 footer ul {
   list-style-type: none;
 }
 .footer-img {
-  color: #fff !important;
+  /* color: #fff !important; */
+  filter: brightness(0) invert(1);
 }
 
 footer .first {
@@ -145,4 +146,35 @@ footer .third {
 }
 footer .fourth {
   width: 30%;
+}
+
+footer span {
+  margin-left: 15px;
+  text-align: justify;
+}
+footer .sly {
+  display: flex;
+}
+div.sly2 {
+  margin-left: 30px
+
+}
+.first ul > li {
+  padding: 8px 5px
+}
+.f-ul {
+  padding-left: 50px !important;
+  font-size: 14px;
+}
+.second, .third {
+  padding-top: 6vh;
+  padding-left: 30px;
+}
+.second ul > li, .third ul > li {
+  padding-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.fourth {
+  padding-top: 9vh;
 }
