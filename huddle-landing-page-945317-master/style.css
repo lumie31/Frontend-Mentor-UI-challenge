@@ -83,12 +83,18 @@ button {
   box-shadow: 2px 2px 5px grey;
 }
 
-.text {
+.text,
+.text-2 {
   width: 40%;
 }
 .text {
-  padding: 5em;
-  margin-top: 10px;
+  padding-left: 8em;
+  /* margin-top: 10px; */
+  padding-top: 2em;
+
+  /* 
+  padding-left: 8em;
+  padding-bottom: none; */
 }
 .sect {
   padding: 0 50px;
@@ -100,4 +106,43 @@ button {
   padding: 30px;
   /* margin-left: 5em; */
   float: right;
+}
+.pic-2 {
+  width: 60%;
+}
+.pic-2 img {
+  padding-left: 8em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.text-2 {
+  padding: 3em;
+}
+
+footer {
+  /* background: hsl(208, 11%, 55%); */
+  background: hsl(192, 100%, 9%);
+  color: #fff;
+  display: flex;
+  padding-top: 20vh
+}
+
+footer ul {
+  list-style-type: none;
+}
+.footer-img {
+  color: #fff !important;
+}
+
+footer .first {
+  width: 30%;
+}
+footer .second {
+  width: 20%;
+}
+footer .third {
+  width: 20%;
+}
+footer .fourth {
+  width: 30%;
 }
